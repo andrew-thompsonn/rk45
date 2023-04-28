@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.123' (creator: callgrind-3.15.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 10692848511
+Trigger: Program termination
+Profiled target:  ./exe_three_body 1 100 10 (PID 123, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir             
+--------------------------------------------------------------------------------
+99,788,191,001  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir              file:function
+--------------------------------------------------------------------------------
+45,979,255,728  /build/glibc-sMfBJT/glibc-2.31/math/../sysdeps/ieee754/flt-32/e_powf.c:__powf_fma [/usr/lib/x86_64-linux-gnu/libm-2.31.so]
+31,138,208,361  ???:equations [/mnt/c/Users/andre/Desktop/CU/ASEN_4057/Git/Thompson/final_project/part1/exe_three_body]
+17,855,770,251  ???:euler [/mnt/c/Users/andre/Desktop/CU/ASEN_4057/Git/Thompson/final_project/part1/exe_three_body]
+ 2,189,488,368  /build/glibc-sMfBJT/glibc-2.31/math/../sysdeps/ieee754/flt-32/math_config.h:__powf_fma
+ 1,459,658,912  ???:0x00000000001091d0 [???]
+   360,272,922  /build/glibc-sMfBJT/glibc-2.31/stdio-common/printf_fp.c:__printf_fp_l [/usr/lib/x86_64-linux-gnu/libc-2.31.so]
+

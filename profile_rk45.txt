@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.21236' (creator: callgrind-3.15.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 14673734746
+Trigger: Program termination
+Profiled target:  ./exe_three_body 1 100 10 (PID 21236, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir             
+--------------------------------------------------------------------------------
+96,949,693,109  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir              file:function
+--------------------------------------------------------------------------------
+47,797,139,564  ???:rk45 [/mnt/c/Users/andre/Desktop/CU/ASEN_4057/Git/Thompson/final_project/part1/exe_three_body]
+27,475,179,984  /build/glibc-sMfBJT/glibc-2.31/math/../sysdeps/ieee754/flt-32/e_powf.c:__powf_fma [/usr/lib/x86_64-linux-gnu/libm-2.31.so]
+18,104,565,524  ???:equations [/mnt/c/Users/andre/Desktop/CU/ASEN_4057/Git/Thompson/final_project/part1/exe_three_body]
+ 1,308,341,904  /build/glibc-sMfBJT/glibc-2.31/math/../sysdeps/ieee754/flt-32/math_config.h:__powf_fma
+   990,094,220  ???:checkCollisionArray [/mnt/c/Users/andre/Desktop/CU/ASEN_4057/Git/Thompson/final_project/part1/exe_three_body]
+   872,227,936  ???:0x00000000001091d0 [???]
+
